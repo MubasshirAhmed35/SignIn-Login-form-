@@ -1,0 +1,109 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: (
+    "https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital@1&display=swap"
+  );
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(350deg, white, rgb(45, 72, 228));
+}
+
+#form {
+  box-shadow: 10px 10px 20px black;
+  border-radius: 20px;
+  /* background-color: white; */
+  min-width: 25%;
+  min-height: 80vh;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  display: inline-block;
+  color: white;
+  font-size: bolder;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2.5rem;
+  text-shadow: 4px 3px 2px blue;
+}
+
+h2:hover{
+  font-size: 50px;
+}
+
+#inputs {
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  text-align: left;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  border-color: darkgray;
+  width: 45vh;
+  height: 50px;
+  margin: 10px;
+  padding: 5px;
+  outline: none;
+}
+
+input:hover{
+  font-size: 20px;
+}
+
+#btnLogin {
+  align-items: center;
+  width: 45vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#btnGit {
+  border-color: darkgray;
+}
+
+#btnGit:hover {
+  background-color: #1358ec;
+  color: white;
+}
+
+#btnGit i {
+  margin-right: 80px;
+  margin-left: -95px;
+  font-size: 1.5rem;
+}
+
+#btnGoogle {
+  border-color: darkgray;
+}
+
+#btnGoogle:hover {
+  background-color: #1358ec;
+  color: white;
+}
+
+#btnGoogle i {
+  margin-right: 75px;
+  margin-left: -95px;
+  font-size: 1.5rem;
+}
+
+/* #btnGit:hover {
+  background-color: #1358ec; */
+/* } */
